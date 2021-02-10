@@ -1,5 +1,5 @@
 # Intro to Conditional Statements.
-if __name__ == '__main__':
+if __name__ == '__main__':  # Code by Vertika Dhingra.
     N = int(input())
     if (N % 2 != 0):
         print('Weird')
