@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':  # Code by Vertika Dhingra.
     T = int(input())  # input : number of test cases.
     all_strings = []  # nested list.
     for x in range(T):  # input: multiple strings in the range of test cases.
