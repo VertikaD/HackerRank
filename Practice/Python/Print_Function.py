@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__': # Code by Vertika Dhingra.
     n = int(input())
     revnum = []
     for i in range(n+1):
