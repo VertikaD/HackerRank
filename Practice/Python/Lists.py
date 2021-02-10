@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':  # Code by Vertika Dhingra.
     N = int(input())
     list = []
     commands = []
