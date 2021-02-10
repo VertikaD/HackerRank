@@ -5,4 +5,4 @@ if __name__ == '__main__': # Code by Vertika Dhingra.
         revnum.append(i)
 
     revnum.pop(0)
-    print(*revnum, sep="")
+    print(*revnum, sep="") # sep="" is used to remove spaces from the output.
