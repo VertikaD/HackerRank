@@ -1,5 +1,5 @@
 # Arrays
-if __name__ == '__main__':
+if __name__ == '__main__':  # Code by Vertika Dhingra.
     n = int(input())
 
     arr = list(map(int, input().rstrip().split()))
