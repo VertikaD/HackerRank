@@ -1,3 +1,4 @@
+#SECOND LOWEST IN LIST
 if __name__ == '__main__':  # code by Vertika Dhingra
     list_name = []
     list_score = []
