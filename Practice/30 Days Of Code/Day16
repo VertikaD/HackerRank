@@ -1,0 +1,9 @@
+#Exceptions
+import sys
+
+
+S = input().strip()
+try:
+    print(int(S))
+except ValueError: #exception occurs if a string cannot be converted to int type.
+    print('Bad String')
