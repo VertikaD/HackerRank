@@ -1,0 +1,10 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+#Polar Coordinates
+import cmath
+z = complex(input())
+
+modulus = abs(complex(z))
+print(modulus)
+
+phase_angle=cmath.phase(z)
+print(phase_angle)
