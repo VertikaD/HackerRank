@@ -1,0 +1,16 @@
+def swap_case(s):
+    s_list = [x for x in s]
+    s_swap = []
+    for i in s_list:
+        if i.isupper():
+            s_swap.append(i.lower())
+        elif i.islower():
+            s_swap.append(i.upper())
+        else:
+            # through this we are keeping the special characters also in the list.
+            s_swap.append(i)
+
+    # convert the list of swap characters into a string.
+    return ''.join(s_swap)
+
+if __name__ == '__main__':
