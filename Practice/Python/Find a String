@@ -1,0 +1,12 @@
+def count_substring(string, sub_string):
+    # This approach with method .startswith() also handles the case sensitivity issue.
+
+    # this gives the start indices of every occurrence of the given substring from the original string.
+    
+    all_indices_list_ss = [i for i in range(len(string)) if string.startswith(sub_string, i)]
+    
+    # This returns the number of occurrences of given substring.
+    
+    return len(all_indices_list_ss)
+
+if __name__ == '__main__':
