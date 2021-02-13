@@ -1,4 +1,3 @@
-# code by Vertika Dhingra.
 import math
 import os
 import random
@@ -6,8 +5,7 @@ import re
 import sys
 
 # Complete the compareTriplets function below.
-
-
+# code by Vertika Dhingra.
 def compareTriplets(a, b):
     Result = []
     a_score = 0
