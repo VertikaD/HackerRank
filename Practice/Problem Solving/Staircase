@@ -1,0 +1,4 @@
+# Complete the staircase function below.
+def staircase(n):
+    for i in range(n):
+        print(('#'*i).rjust(n-1)+'#') #using text alignment.
