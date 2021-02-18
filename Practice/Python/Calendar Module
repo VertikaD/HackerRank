@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+# code by Vertika Dhingra.
+import calendar
+
+month,day,year = map(int,input().split())
+result = calendar.day_name[calendar.weekday(year,month,day)]
+print(result.upper())
