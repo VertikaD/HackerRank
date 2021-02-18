@@ -1,0 +1,21 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+# code by Vertika Dhingra.
+
+n,m = input().split()
+array = list(map(int,input().split()))
+A = list(map(int,input().split()))
+B = list(map(int,input().split()))
+A_set = set(A)
+B_set = set(B)
+
+happiness=0
+for i in array:
+    if i in A_set:
+        happiness+=1
+    elif i in B_set:
+        happiness-=1
+    else:
+        pass
+    
+print(happiness)
