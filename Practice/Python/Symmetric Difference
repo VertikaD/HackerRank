@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+# code by Vertika Dhingra.
+
+M=int(input())
+list1 = list(map(int,input().split()))
+N=int(input())
+list2 = list(map(int,input().split()))
+N_set = set(list1)
+M_set = set(list2)
+difference_M = M_set.difference(N_set) #values exist in M but not in N.
+difference_N = N_set.difference(M_set) #values exist in N but not in M.
+symmetric_difference = difference_M.union(difference_N)
+symmetric_difference_list = sorted(list(symmetric_difference))
+for x in symmetric_difference_list:
+    print(x)
